@@ -34,7 +34,7 @@ app.use(express.static(__dirname + '/public'))
    .use(cookieParser());
 
 app.get('/', function(request, response) {
-  response.render('index', {title: 'Hi', message: 'World!'})
+  response.render('index')
 })
 
 // app.get('/login', function(request, response) {
