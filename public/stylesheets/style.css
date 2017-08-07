@@ -3,12 +3,10 @@ body {
 }
 
 .timer-body {
-  border: 1px solid black;
   color: #0A3200;
   font-family: 'Lobster', cursive;
   font-size: 120px;
   margin-top: 225px;
-  margin-left: 450px;
+  margin-left: 500px;
   position: absolute;
-  vertical-align: center;
 }
